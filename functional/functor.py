@@ -32,6 +32,7 @@ class Functor:
 
 
 class FQuantity:
+    @staticmethod
     def __Fq(qua: list, container: object) -> list:
         match qua:
             case []:
